@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de CSS</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset> <legend><strong>Fórmulario De Cadastro </strong></legend> 
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="name" id="name" class = "inputUser" required>
+                <label for="name" class="labelInput"> Seu Nome Completo</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="email" id="email" class = "inputUser" required>
+                <label for="email" class="labelInput">E-mail</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="tel" name="telefone" id="telefone" class = "inputUser" required>
+                <label for="telefone" class="labelInput">Número De telefone</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="namePet" id="namePet" class = "inputUser" required>
+                <label for="namePet" class="labelInput">Nome Do Seu Pet</label>
+            </div>
+            <p>Sexo</p>
+            <input type="radio" name="sexo" value="feminino" id="feminino" required >
+            <label for="feminino">Fêmea</label>
+            <br><br>
+            <input type="radio" name="sexo" value="masculino" id="masculino" required >
+            <label for="masculino">Macho</label>
+            <br><br>
+            <div >
+                <label for="InputDate"><strong>Data De Nascimento Do Pet:</strong></label>
+                <input type="date" name="date" class="inputDate" value="data" id="InputDate" required >
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="cidade" id="cidade" class = "inputUser" required>
+                <label for="cidade" class="labelInput">Nome Da Sua Cidade</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="estado" id="estado" class = "inputUser" required>
+                <label for="estado" class="labelInput">Nome Do Seu Estado</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="number" name="peso" id="peso" class = "inputUser" required>
+                <label for="peso" class="labelInput">Peso Do Animal (Kg)</label>
+            </div>
+            <br><br>
+            <input type="submit" id="submit" class="submit" value="Enviar">
+            
+            </fieldset>
+        </form>
+
+    </div>
+    
+    
+</body>
+</html>
